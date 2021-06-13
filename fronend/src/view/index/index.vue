@@ -1,5 +1,5 @@
 <template>
-  <el-input v-model="input" placeholder="请输入内容"></el-input>
+  <el-input v-model="input" placeholder="欢迎进行搜索"></el-input>
 </template>
 <script>
 
@@ -8,7 +8,7 @@ export default {
   data(){
       return {
           input:""
-          }
+      }
   },
   components: {
    
